@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No-broker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediafile.css">
+</head>
+
+<body>
+    <header class="head container">
+        <div class="logo">
+            <img src="assets/nb_logo.svg" alt="logo">
+            <p>Property Management Services</p>
+        </div>
+    </header>
+    <section class="form container" id="contact">
+        <div class="contact flex">
+            <div class="contact-desc">
+                <img src="https://cdn-jgndb.nitrocdn.com/dqWxDayggbGUITNNSRHypNelBcbWTVrJ/assets/images/optimized/rev-8d144c4/www.nobroker.in/prophub/wp-content/uploads/2022/07/NRI-Banner-960x420-1.jpg"
+                    alt="banner">
+            </div>
+            <div class="contact-form">
+                <div class="heading">
+                    <h2>Refer now to earn attractive rewards!!</h2>
+                </div>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" id="name" required>
+                    <input type="number" name="number" placeholder="Your Phone Number" id="Phone_no" required>
+                    <input type="text" name="name" placeholder="Your Friend's Name" id="friend" required>
+                    <input type="number" name="number" placeholder="Your Friend's Phone Number" id="friend_no" required>
+
+                    <select id="location" name="location">
+                        <option value="none" selected disabled>Your Friend's City</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                    </select><br>
+
+                    <div class="submit-button">
+                        <input class="submit" type="button" value="Submit" onclick="submitForm()">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section class="container">
+        <div class="box flex">
+            <h2>Terms & Conditions</h2>
+            <p><i class="fa-solid fa-check" style="color: #00ff2a; margin-right: 10px;"></i> Get <span
+                    style="font-weight: 600;">Rs
+                    2000</span> Cash in your account on
+                successful onboarding of property by NoBroker</p>
+            <p><i class="fa-solid fa-check" style="color: #00ff2a; margin-right: 10px;"></i> For every
+                successful
+                referral, get <span style="font-weight: 600;">Rs
+                    2000</span> discount on Property Management Services Plan</p>
+        </div>
+        <div class="button">
+            <p>© NoBroker.com</p>
+        </div>
+
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/7527cf0a54.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

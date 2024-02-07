@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #232323d2;
+}
+
+.container {
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.logo p {
+    font-size: small;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.button {
+    align-items: center;
+    background-color: #fd3753;
+    padding: 10px;
+    width: 65%;
+    margin-block: 20px;
+    border-radius: 5px;
+}
+
+.button p {
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* contact */
+
+
+.heading {
+    color: #000000c7;
+    text-align: center;
+}
+
+.contact {
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.contact-desc {
+    width: 825px;
+}
+
+.contact-desc img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contact-form {
+    width: 400px;
+    padding: 20px;
+    position: sticky;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: #0000001f solid 0.2px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-block: 10px;
+    border: #0000001f solid 0.2px;
+    border-radius: 10px;
+}
+
+select {
+    color: #7b8187;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.name {
+    gap: 10px;
+}
+
+.message {
+    padding-bottom: 100px;
+}
+
+.submit-button {
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.submit {
+    cursor: pointer;
+    background-color: #fd3753;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px #7b8187;
+    transition: 0.2s ease-out;
+    text-align: center;
+}
+
+.submit:hover {
+    transform: scale(1.05);
+    background-color: #ff0224dd;
+    box-shadow: 0 0 5px #7b8187;
+}
+
+/* box */
+.box {
+    width: 65%;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: #0000001f solid 0.2px;
+}

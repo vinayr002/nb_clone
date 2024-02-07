@@ -1,0 +1,38 @@
+@media screen and (max-width: 991px) {
+    .contact-desc {
+        width: 100%;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+
+    .box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .submit-button {
+        width: 100%;
+    }
+
+    .box h2 {
+        font-size: 1.2rem;
+    }
+
+    .box p {
+        font-size: 0.9rem;
+    }
+}
